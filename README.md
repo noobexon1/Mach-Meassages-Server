@@ -20,7 +20,7 @@ The clients have basic ui with 3 commands:
 
 After every action taken by clients, log messages will appear on both client an server screens to describe what is going on at each and every step.
 
-*Approaches in implementation requiring special attention:
+*Approaches in implementation requiring special attention*
 
 1) The server is not listening to clients directly, but rather to its port name on launchd. 
 The clients send their messages to that port name and although the server's retrieve method is blocking,
