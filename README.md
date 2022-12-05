@@ -24,7 +24,7 @@ After every action taken by clients, log messages will appear on both client and
 
 1) The server is not listening to clients directly, but rather to its port name on launchd. 
 The clients send their messages to that port name and although the server's retrieve method is blocking,
-it is blocked by launchd, from which all of the clients messages are coming anyway. This is equivelent to the reactor design pattern.
+it is blocked by launchd, from which all of the clients messages are coming anyway. This is an attempt to follow the reactor design pattern.
 
 2) To check that the data hasn't been tempered with after storing it on the server, the client creates an encrypted data signature
 using SHA256. this signature is only stored on the clients side, and upon retrievel, the "fresh" data signature is compared with the 
