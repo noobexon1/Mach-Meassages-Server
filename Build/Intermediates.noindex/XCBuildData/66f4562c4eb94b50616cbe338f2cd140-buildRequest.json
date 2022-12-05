@@ -1,0 +1,56 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "2397b4dc2c47248ddbba0f42ccb2e4e5f9cee10de568e43a4659ccad8444850f"
+    }
+  ],
+  "containerPath" : "/Users/ligmaballz/Desktop/Server/Server.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/ligmaballz/Desktop/Server/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/ligmaballz/Desktop/Server/Build/Products",
+      "derivedDataPath" : "/Users/ligmaballz/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ligmaballz/Library/Developer/Xcode/DerivedData/Server-gacmvdondhjwzyheprgfthpoqprl/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ligmaballz/Library/Developer/Xcode/DerivedData/Server-gacmvdondhjwzyheprgfthpoqprl/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/ligmaballz/Desktop/Server/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
