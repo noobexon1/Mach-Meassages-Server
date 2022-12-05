@@ -16,7 +16,7 @@ The clients have basic ui with 3 commands:
 
 1) "send" -> You will be promted to provide input data -> Data will then be sent to be stored on the server.
 2) "retrieve" -> Data will be received from the server by queue behavier (first message sent to the server will be received first).
-3) "quit" -> Exit the client (This is not neccasery. The server will manage no matter what happens to the client).
+3) "quit" -> Exit the client (This is not really neccasery. The server will persist and respond correctly no matter what happens to the client).
 
 After every action taken by clients, log messages will appear on both client an server screens to describe what is going on at each and every step.
 
