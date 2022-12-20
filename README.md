@@ -13,7 +13,7 @@
 
 *How to use*
 
-The Server is simply responding to clients.
+The Server is simply listening and responding to incoming mach messages sent from clients.
 
 The clients have basic ui with 3 commands:
 
